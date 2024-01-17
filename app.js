@@ -9,7 +9,6 @@ app.use(express.json());
 
 app.use('/posts', postsRouter);
 
-app.use('/posts', postsRouter);
 // Create a new blog document
 app.post('/blogs', async (req, res) => {
   try {
